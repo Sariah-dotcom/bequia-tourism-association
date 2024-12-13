@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1, h2 {
+    font-family: 'Playfair Display';
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #003C43;
+    color: white;
+    position: fixed;
+    transition: right 0.7s ease;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+}
+
+.menu-items.show {
+    right: -1rem;
+}
+
+.link {
+    font-family: 'DM Sans';
+}
+
+.link:hover {
+    color: #2cc8da;
+}
