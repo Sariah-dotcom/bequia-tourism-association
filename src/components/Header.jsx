@@ -22,9 +22,9 @@ export default function Header() {
             <div></div>
             <Link to='/' className='link' onClick={showMenu}>Home</Link>
             <Link to='/about-bequia'  className='link' onClick={showMenu}>About Bequia</Link>
+            <Link to='/travel'  className='link' onClick={showMenu}>Travel</Link>
             <Link to='/accommodations'  className='link' onClick={showMenu}>Accommodation</Link>
             <Link to='/activities'  className='link' onClick={showMenu}>Activities</Link>
-            <Link to='/travel'  className='link' onClick={showMenu}>Travel</Link>
         </div>
 
         <RiMenu3Fill className='text-white text-2xl lg:hidden' onClick={showMenu} />

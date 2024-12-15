@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className='mt-[5rem] flex flex-col px-2 lg:items-center lg:gap-[8rem]'>
+    <footer className='mt-[10rem] flex flex-col px-2 lg:items-center lg:gap-[8rem]'>
       <img src="/watermark.png" alt="footer watermark" />
 
       <div className='flex flex-col gap-10 p-5 lg:flex-row lg:justify-between lg:gap-[8rem]'>
