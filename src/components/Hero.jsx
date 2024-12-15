@@ -12,7 +12,7 @@ export default function Hero() {
             
             <div className='absolute bottom-5 left-3 text-white lg:left-5'>
                 <h1 className='italic lg:text-3xl'>visit the</h1>
-                <h1 className='uppercase text-5xl lg:text-8xl'>Big Little <br />Island</h1>
+                <h1 className='uppercase text-6xl lg:text-8xl'>Big Little <br />Island</h1>
             </div>
         </div>
     </section>

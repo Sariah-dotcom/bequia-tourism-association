@@ -8,6 +8,7 @@ export default {
     extend: {
       colors:{
         'green':'#003C43',
+        'grey':'#757575',
       },
 
       fontFamily: {

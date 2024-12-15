@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bento div {
+  background: #000;
+}
+
 h1, h2 {
     font-family: 'Playfair Display';
 }
@@ -14,10 +18,10 @@ h1, h2 {
     position: fixed;
     transition: right 0.7s ease;
     gap: 2rem;
-    padding: 2rem 1rem;
+    padding: 2rem;
     top: 0;
     right: -100%;
-    width: 70%;
+    width: 80%;
     height: 100vh;
 }
 

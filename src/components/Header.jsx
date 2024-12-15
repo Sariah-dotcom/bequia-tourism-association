@@ -20,11 +20,11 @@ export default function Header() {
         <div className={`menu-items ${getMenu ? 'show' : '' } lg:static lg:flex lg:flex-row lg:justify-end lg:p-0 lg:h-10 lg:w-full lg:bg-transparent` }>
             <IoMdClose className='text-white text-2xl absolute right-10 lg:hidden' onClick={showMenu}/>
             <div></div>
-            <Link to='/' className='link'>Home</Link>
-            <Link to='/about-bequia'  className='link'>About Bequia</Link>
-            <Link to='/accommodations'  className='link'>Accommodation</Link>
-            <Link to='/activities'  className='link'>Activities</Link>
-            <Link to='/travel'  className='link'>Travel</Link>
+            <Link to='/' className='link' onClick={showMenu}>Home</Link>
+            <Link to='/about-bequia'  className='link' onClick={showMenu}>About Bequia</Link>
+            <Link to='/accommodations'  className='link' onClick={showMenu}>Accommodation</Link>
+            <Link to='/activities'  className='link' onClick={showMenu}>Activities</Link>
+            <Link to='/travel'  className='link' onClick={showMenu}>Travel</Link>
         </div>
 
         <RiMenu3Fill className='text-white text-2xl lg:hidden' onClick={showMenu} />
