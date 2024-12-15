@@ -13,11 +13,13 @@ import { FaHotel } from "react-icons/fa";
 import { IoMdBoat } from "react-icons/io";
 import InformationCard from '../components/InformationCard';
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../components/ScrollToTop';
 
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-20">
+      <ScrollToTop />
       <Hero />
 
       <section className="px-5">
