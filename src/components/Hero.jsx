@@ -18,8 +18,8 @@ export default function Hero() {
         {
           opacity: 1,
           scale: 1,
-          duration: 1,
-          ease: 'power3.out'
+          duration: 1.5,
+          ease: 'power1.inOut'
         }
       )
 
@@ -31,8 +31,8 @@ export default function Hero() {
         {
           opacity: 1,
           y: 0,
-          duration: 1,
-          ease: 'power3.out'
+          duration: 1.5,
+          ease: 'power3.inOut'
         }
       )
     }

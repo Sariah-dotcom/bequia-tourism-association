@@ -33,8 +33,8 @@ export default function Home() {
         {
           opacity: 1,
           x: 0,
-          duration: 1,
-          ease: 'power3.out',
+          duration: 1.5,
+          ease: 'power1.inOut',
           scrollTrigger: {
             trigger: ".text", // Parent container that triggers the animation
             start: "top 80%", // Starts when the top of the trigger is 80% down the viewport
