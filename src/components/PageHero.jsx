@@ -7,7 +7,7 @@ export default function PageHero(props) {
 
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
 
-        <div className='absolute bottom-5 left-3 text-3xl text-white lg:left-5 lg:text-7xl lg:bottom-12'>
+        <div className='italic font-semibold absolute bottom-5 left-3 text-4xl text-white lg:left-5 lg:text-7xl lg:bottom-12'>
             <h1>{props.pageTitle}</h1>
         </div>
     </div>

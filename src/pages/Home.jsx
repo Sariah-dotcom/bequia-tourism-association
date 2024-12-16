@@ -23,10 +23,10 @@ export default function Home() {
       <Hero />
 
       <section className="px-5">
-        <div>
+        <div className='page-content'>
           <SectionHeading 
-            subheading="About Bequia" 
-            heading='Lorem Ipsum Dolor Est'
+            subheading="The Island of your Dreams" 
+            heading='Welcome to Bequia'
           />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti provident tempore itaque tempora accusamus, rerum ad obcaecati? Suscipit facere sed dignissimos, hic odit aliquam nam ad perferendis tenetur incidunt voluptatibus.
@@ -51,7 +51,7 @@ export default function Home() {
         <SwiperSlide className="bg-gray-400 w-72 rounded-lg p-4">Slide 4</SwiperSlide>
       </Swiper>
 
-      <section className='grid grid-cols-1 lg:grid-cols-2 px-8'>
+      <section className='grid grid-cols-1 lg:grid-cols-2 px-8 lg:px-[15rem] lg:gap-5'>
         <InformationCard
           icon={<FaPlaneArrival />}
           heading='Getting to Bequia'
@@ -77,7 +77,7 @@ export default function Home() {
         />
       </section>
 
-      <section className='h-[100vh] bg-green px-5 py-12'>
+      <section className='h-[100vh] bg-green px-5 py-12 lg:px-[15rem]'>
         <SectionHeading 
           subheading='See and do'
           heading='Activities'
@@ -96,8 +96,6 @@ export default function Home() {
           <Link to='/activities'>Restaurants & Dining</Link>
           <Link to='/activities'>Diving & Watersports</Link>
           <Link to='/activities'>Shops & Services</Link>
-
-
         </div>
       </section>
     </div>

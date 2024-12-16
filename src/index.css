@@ -44,11 +44,13 @@ p {
 .page-content {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 8rem;
+    margin-top: 5rem;
 }
 
 @media screen and (min-width: 900px) {
     .page-content {
         padding: 5rem 15rem;
+        gap: 12rem;
     }
 }

@@ -23,7 +23,7 @@ export default function Header() {
             <Link to='/' className='link' onClick={showMenu}>Home</Link>
             <Link to='/about-bequia'  className='link' onClick={showMenu}>About Bequia</Link>
             <Link to='/travel'  className='link' onClick={showMenu}>Travel</Link>
-            <Link to='/accommodations'  className='link' onClick={showMenu}>Accommodation</Link>
+            <Link to='/accommodations'  className='link' onClick={showMenu}>Accommodations</Link>
             <Link to='/activities'  className='link' onClick={showMenu}>Activities</Link>
         </div>
 

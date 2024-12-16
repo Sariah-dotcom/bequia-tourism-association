@@ -11,8 +11,6 @@ export default function Activities() {
         heroImage='/hero-images/activities-hero.jpg'
         pageTitle='Activities'
       />
-
-      Accommodations
     </div>
   )
 }

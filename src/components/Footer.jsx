@@ -9,9 +9,9 @@ export default function Footer() {
 
       <div className='flex flex-col gap-10 p-5 lg:flex-row lg:justify-between lg:gap-[8rem]'>
 
-        <div className='flex flex-col gap-3 font-dm'>
-          <h3>Plan your Stay</h3>
-          <div className='flex flex-col text-sm gap-1'>
+        <div className='flex flex-col gap-3 font-dm text-grey lg:gap-5'>
+          <h3 className='font-semibold text-xl'>Plan your Stay</h3>
+          <div className='flex flex-col text-sm gap-1 lg:gap-2'>
             <Link to='/activities'>Getting here</Link>
             <Link to='/activities'>Getting around Bequia</Link>
             <Link to='/activities'>Accommodation</Link>
@@ -19,9 +19,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className='flex flex-col gap-3 font-dm'>
-          <h3>Activities</h3>
-          <div className='flex flex-col text-sm gap-1'>
+        <div className='flex flex-col gap-3 font-dm text-grey lg:gap-5'>
+          <h3 className='font-semibold text-xl'>Activities</h3>
+          <div className='flex flex-col text-sm gap-1 lg:gap-2'>
             <Link to='/activities'>Places of Interest</Link>
             <Link to='/activities'>Restaurants</Link>
             <Link to='/activities'>Tours & Hiking</Link>
@@ -29,9 +29,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className='flex flex-col gap-3 font-dm '>
-          <h3>What's on Bequia</h3>
-          <div className='flex flex-col text-sm gap-1'>
+        <div className='flex flex-col gap-3 font-dm text-grey lg:gap-5'>
+          <h3 className='font-semibold text-xl'>What's on Bequia</h3>
+          <div className='flex flex-col text-sm gap-1 lg:gap-2'>
             <Link to='/activities'>Getting here</Link>
             <Link to='/activities'>Getting here</Link>
             <Link to='/activities'>Getting here</Link>
