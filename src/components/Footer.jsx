@@ -32,7 +32,7 @@ export default function Footer() {
         <div className='flex flex-col gap-3 font-dm text-grey lg:gap-5'>
           <h3 className='font-semibold text-xl'>What's on Bequia</h3>
           <div className='flex flex-col text-sm gap-1 lg:gap-2'>
-            <Link to='/activities'>Getting here</Link>
+            <Link to='https://www.begos.com/'>Bequia Weekly - What's on Bequia</Link>
             <Link to='/activities'>Getting here</Link>
             <Link to='/activities'>Getting here</Link>
             <Link to='/activities'>Getting here</Link>

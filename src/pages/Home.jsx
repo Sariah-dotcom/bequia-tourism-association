@@ -47,11 +47,12 @@ export default function Home() {
         }}
         className="w-full h-[90vh] max-w-screen-xl mx-auto"
       >
-        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/island.jpg" alt="beach" /></SwiperSlide>
+        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/island.jpg" alt="island" /></SwiperSlide>
+        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/belmont-walkway.jpg" alt="belmont walkway" /></SwiperSlide>
+        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/ferry-docking.jpg" alt="ferry docking" /></SwiperSlide>
         <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/villa.jpg" alt="villa on bay" /></SwiperSlide>
-        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/hero-images/bay.jpg" alt="bequia island" /></SwiperSlide>
-        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/lookout.png" alt="lookout point" /></SwiperSlide>
-        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/moonhole.jpg" alt="moonhole" /></SwiperSlide>
+        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/friendship.jpg" alt="friendship bay" /></SwiperSlide>
+        <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/sunset.jpg" alt="sunset" /></SwiperSlide>
       </Swiper>
 
       <section className='grid grid-cols-1 lg:grid-cols-2 px-8 lg:px-[15rem] lg:gap-5'>
@@ -98,7 +99,7 @@ export default function Home() {
           <div className='h-52 w-full relative'>
             <img className='absolute top-0 left-0 w-full h-full object-cover' src="/activities/bequia-lightingup.jpg" alt="" />
           </div>
-          <div className='h-32 w-40 absolute right-5 mt-40 lg:h-[12rem] lg:w-[20rem] lg:right-[10rem]'>
+          <div className='h-32 w-40 absolute right-5 mt-40 lg:h-[15rem] lg:w-[25rem] lg:right-[10rem]'>
             <img className='absolute top-0 left-0 w-full h-full object-cover' src="/activities/regatta.jpg" alt="" />
           </div>
         </div>

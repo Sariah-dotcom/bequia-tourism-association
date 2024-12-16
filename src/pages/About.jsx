@@ -24,6 +24,34 @@ export default function About() {
             feels like home from the moment you arrive; friendliness is the watchword, 
             and the pace is relaxed and easy-going. 
           </p>
+          <p className='mt-5'>
+            Bequia fulfils many dreams of the perfect small Caribbean island: beautiful sandy 
+            beaches where more than ten people may constitute a crowd, lush green hillsides, 
+            attractive little villages, intimate, well run hotels and guest houses, hardly any traffic,
+           places to get together and places in which to find that perfect solitude. Variety and choice 
+           on so small an island may come as a surprise - but there are both wherever you look. 
+          </p>
+
+          <p className='mt-5'>A choice of nightlife too awaits you - gourmet international cuisine, or 
+            delicious local cooking; elegant cocktails or sundowners in a local bar; a lively jump up to 
+            steel band music or a wonderfully romantic candlelit dinner far away from it all. 
+          </p>
+        </div>
+
+        <div>
+          <SectionHeading subheading='Our Story' heading='About the Bequia Tourism Association'/>
+          <p>The Bequia Tourism Association (BTA) was formed in December 1999 by a group of individuals from the Bequia 
+            business community, with the dual aims of protecting and enhancing the island's resources for both visitors 
+            and the community, and of attracting more visitors to the island through its own promotional and marketing 
+            initiatives.
+          </p>
+
+          <p className='mt-5'>
+            The BTA is a non-profit organization, supported by annual membership fees, fund-raising activities and donations 
+            to the "Friends of Bequia" Club. A subvention from the government covers the running costs of the Tourism Office and
+            its staff, while special projects are accomplished with volunteer labour and skills drawn from the membership.
+          </p>
+
         </div>
 
         <div>
