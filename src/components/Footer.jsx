@@ -15,7 +15,6 @@ export default function Footer() {
             <Link to='/activities'>Getting here</Link>
             <Link to='/activities'>Getting around Bequia</Link>
             <Link to='/activities'>Accommodation</Link>
-            <Link to='/activities'>Getting here</Link>
           </div>
         </div>
 
@@ -33,9 +32,8 @@ export default function Footer() {
           <h3 className='font-semibold text-xl'>What's on Bequia</h3>
           <div className='flex flex-col text-sm gap-1 lg:gap-2'>
             <Link to='https://www.begos.com/'>Bequia Weekly - What's on Bequia</Link>
-            <Link to='/activities'>Getting here</Link>
-            <Link to='/activities'>Getting here</Link>
-            <Link to='/activities'>Getting here</Link>
+            <Link to='#'>Upcoming Events</Link>
+            <Link to='#'>Shops and Services</Link>
           </div>
         </div>
       </div>
