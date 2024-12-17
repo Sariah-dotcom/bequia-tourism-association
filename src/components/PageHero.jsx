@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PageHero(props) {
   return (
-    <div className='relative h-[100vh] w-full overflow-hidden'>
+    <div className='relative h-[80vh] md:h-[100vh] w-full overflow-hidden'>
         <img className='absolute top-0 left-0 w-full h-full object-cover' src={props.heroImage} alt="bequia arial shot" />
 
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>

@@ -16,7 +16,7 @@ export default function Travel() {
 
       <div className='page-content px-5'>
        <div id='#getting-here' className='mt-[5rem]'>
-        <SectionHeading subheading='Arriving here' heading='Getting to Bequia'/>
+        <SectionHeading subheading='Arriving Here' heading='Getting to Bequia'/>
           <p>
               The following international airlines now fly direct into Argyle International Airport (AIA) in St. Vincent: <br /> <br />
           </p>

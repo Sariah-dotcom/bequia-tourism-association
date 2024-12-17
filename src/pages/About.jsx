@@ -17,7 +17,7 @@ export default function About() {
 
       <div className='page-content p-5 mt-[5rem]'>
         <div>
-          <SectionHeading subheading='Get to know Bequia' heading='An Island Story'/>
+          <SectionHeading subheading='Get To Know Bequia' heading='An Island Story'/>
           <p>
             The tiny island of Bequia has a unique, magical charm which is hard to find
             anywhere else in the Caribbean. With fewer than six thousand inhabitants, it 

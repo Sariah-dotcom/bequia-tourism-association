@@ -36,8 +36,8 @@ export default function Home() {
           duration: 1.5,
           ease: 'power1.inOut',
           scrollTrigger: {
-            trigger: ".text", // Parent container that triggers the animation
-            start: "top 80%", // Starts when the top of the trigger is 80% down the viewport
+            trigger: ".text", 
+            start: "top 80%", 
           },
         }
       )
@@ -54,8 +54,8 @@ export default function Home() {
           stagger: 0.5,
           ease: 'power3.inOut',
           scrollTrigger: {
-            trigger: ".cards", // Parent container that triggers the animation
-            start: "top 80%", // Starts when the top of the trigger is 80% down the viewport
+            trigger: ".cards", 
+            start: "top 80%", 
           },
         }
       )
@@ -72,8 +72,8 @@ export default function Home() {
           stagger: 0.5,
           ease: 'power3.inOut',
           scrollTrigger: {
-            trigger: ".activity-imgs", // Parent container that triggers the animation
-            start: "top 80%", // Starts when the top of the trigger is 80% down the viewport
+            trigger: ".activity-imgs", 
+            start: "top 80%", 
           },
         }
       )
@@ -88,11 +88,13 @@ export default function Home() {
       <section className="text px-5">
         <div className='lg:px-[15rem] mt-[5rem]'>
           <SectionHeading 
-            subheading="The Island of your Dreams" 
+            subheading="The Island of Your Dreams" 
             heading='Welcome to Bequia'
           />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti provident tempore itaque tempora accusamus, rerum ad obcaecati? Suscipit facere sed dignissimos, hic odit aliquam nam ad perferendis tenetur incidunt voluptatibus.
+            The tiny island of Bequia has a unique, magical charm which is hard to find 
+            anywhere else in the Caribbean. With fewer than six thousand inhabitants, it 
+            feels like home from the moment you arrive; friendliness is the watchword, and the pace is relaxed and easy-going.
           </p>
         </div>
       </section>
@@ -108,7 +110,7 @@ export default function Home() {
           delay: 2000,
           disableOnInteraction: false,
         }}
-        className="w-full h-[90vh] max-w-screen-xl mx-auto"
+        className="w-full h-[40vh] lg:h-[50vh] max-w-screen-xl mx-auto"
       >
         <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/island.jpg" alt="island" /></SwiperSlide>
         <SwiperSlide className="relative rounded-lg"><img className='h-full w-full absolute top-0 object-cover' src="/belmont-walkway.jpg" alt="belmont walkway" /></SwiperSlide>
@@ -153,18 +155,18 @@ export default function Home() {
         </Link>
       </section>
 
-      <section id='activities' className=' bg-green px-5 py-12 lg:px-[15rem]'>
+      <section className='bg-green px-5 py-12 lg:px-[15rem]'>
         <SectionHeading 
-          subheading='See and do'
+          subheading='See and Do'
           heading='Activities'
           headingColor="text-white"
         />
 
-        <div className='activity-imgs flex flex-col'>
-          <div className='h-52 w-full relative'>
+        <div className='flex flex-col'>
+          <div className='activity-imgs h-52 w-full relative'>
             <img className='absolute top-0 left-0 w-full h-full object-cover' src="/activities/bequia-lightingup.jpg" alt="" />
           </div>
-          <div className='h-32 w-40 absolute right-5 mt-40 lg:h-[15rem] lg:w-[25rem] lg:right-[10rem]'>
+          <div className='activity-imgs h-32 w-40 absolute right-5 mt-40 lg:h-[15rem] lg:w-[25rem] lg:right-[10rem]'>
             <img className='absolute top-0 left-0 w-full h-full object-cover' src="/activities/regatta.jpg" alt="" />
           </div>
         </div>
