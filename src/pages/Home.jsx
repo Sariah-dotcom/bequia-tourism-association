@@ -86,7 +86,7 @@ export default function Home() {
       <Hero />
 
       <section className="text px-5">
-        <div className='lg:px-[15rem] mt-[5rem]'>
+        <div className='lg:px-[2rem] mt-[5rem]'>
           <SectionHeading 
             subheading="The Island of Your Dreams" 
             heading='Welcome to Bequia'
